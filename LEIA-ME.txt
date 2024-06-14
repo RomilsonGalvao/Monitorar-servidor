@@ -1,0 +1,6 @@
+editar o arquivo  vi /etc/rc.local
+com o comando
+/bin/bash /caminho/para/monitorar_servidor.sh > /caminho/para/saida.log 2>&1 &
+
+da permissão no arquivo 
+chmod +x /etc/rc.local
